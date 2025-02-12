@@ -4,6 +4,6 @@ int main() {
     char a[100];
     printf("ASCII Value: ");
     scanf("%s", &a);
-    printf("%s", 65);
+    printf("%s", a);
     return 0;
 }
