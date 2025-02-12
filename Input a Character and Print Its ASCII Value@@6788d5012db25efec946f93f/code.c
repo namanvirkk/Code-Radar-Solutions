@@ -2,8 +2,8 @@
 
 int main() {
     char a[100];
-    printf("Enter a charchter: ");
+    printf("ASCII Value ");
     scanf("%s", &a);
-    printf("ASCII value: %d", a);
+    printf("%d", a);
     return 0;
 }
