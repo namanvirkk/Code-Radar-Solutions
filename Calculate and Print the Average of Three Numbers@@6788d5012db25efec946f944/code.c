@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,c;
+    float a,b,c;
 
-    scanf("%d", &a);
-    scanf("%d", &b);
-    scanf("%d", &c);
-    printf("Average: %d", (a+b+c)/3);
+    scanf("%f", &a);
+    scanf("%f", &b);
+    scanf("%f", &c);
+    printf("Average: .2%f", (a+b+c)/3);
     return 0;
 }
