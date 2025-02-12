@@ -1,9 +1,9 @@
 include <stdio.h>
 
 int main() {
-    float a;
-    printf("Product: ");
+    float a, b;
     scanf("%f", &a);
-    printf("%f", a);
+     scanf("%f", &b);
+    printf("%.2f", a*b);
     return 0;
 }
