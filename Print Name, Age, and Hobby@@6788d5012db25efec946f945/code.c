@@ -2,13 +2,13 @@
 
 int main() {
     char Name[50];
-    scanf("%49s", &Name);
+    scanf("%s", &Name);
 
     char Age[10];
-    scanf("%9s", &Age);
+    scanf("%s", &Age);
 
     char Hobby[100];
-    scanf("%99s", &Hobby);
+    scanf("%s", &Hobby);
 
     printf("Name: %s \n", Name);
     printf("Age: %s \n", Age);
