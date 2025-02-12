@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    char Hexadecimal;
+    int Hexadecimal;
     // Read hexadecimal input using %x
-    scanf("%c", &Hexadecimal);
-    printf("Hexadecimal: %c\n", Hexadecimal);
+    scanf("%x", &Hexadecimal);
+    printf("Hexadecimal: %x\n", Hexadecimal);
 
     int a;
     scanf("%d", &a);
