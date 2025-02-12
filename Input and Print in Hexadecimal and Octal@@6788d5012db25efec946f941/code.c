@@ -2,8 +2,8 @@
 
 int main() {
     int Hexadecimal;
-    printf("Hexadecimal: %d\n", Hexadecimal );
-    scanf("%s", &Hexadecimal);
+    printf("Hexadecimal: %s\n", Hexadecimal );
+    scanf("%d", &Hexadecimal);
 
     int Octal;
     scanf("%d", &Octal);
