@@ -2,12 +2,12 @@
 
 int main() {
     int Hexadecimal;
+    printf("Hexadecimal: %d\n", Hexadecimal );
     scanf("%d", &Hexadecimal);
 
     int Octal;
     scanf("%d", &Octal);
-
-    printf("Hexadecimal: %d\n", Hexadecimal );
     printf("Octal: %d", Octal );
+    
     return 0;
 }
