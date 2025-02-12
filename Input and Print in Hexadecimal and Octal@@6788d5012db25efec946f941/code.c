@@ -7,7 +7,7 @@ int main() {
     int Octal;
     scanf("%d", &Octal);
 
-    printf("Hexadecimal: %d", Hexadecimal \n);
+    printf("Hexadecimal: %d\n", Hexadecimal );
     printf("Octal: %d", Octal );
     return 0;
 }
