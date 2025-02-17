@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int age;
-    if (age>60){
+    if (age>=60){
         printf("Eligible");
     }
     else{
