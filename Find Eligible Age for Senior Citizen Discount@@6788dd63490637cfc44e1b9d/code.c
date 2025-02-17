@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int person's age;
+    int persons age;
     person's age <= 60 ? printf("Eligible") : printf("Not Eligible");
     return 0;
 }
