@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main(){
-    int personage;
-    personage <= 60 ? printf("Eligible") : printf("Not Eligible");
+    int age;
+    scanf("%d", &age);
+    age <= 60 ? printf("Eligible") : printf("Not Eligible");
     return 0;
 }
 
