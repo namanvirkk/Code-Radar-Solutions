@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int profit,loss;
-    scan("%d", &profit, &loss);
+    scan("%d %d", &profit, &loss);
     if(profit>loss){
         printf("Profit");
     }
