@@ -21,7 +21,7 @@ int main() {
     scanf("%d", &num);
 
     // Print the binary representation
-    printf("Binary representation of %d is: ", num);
+    printf("%d", num);
     printBinary(num);
 
     return 0;
