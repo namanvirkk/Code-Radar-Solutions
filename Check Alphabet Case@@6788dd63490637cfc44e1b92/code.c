@@ -6,10 +6,10 @@ int main(){
         prinf("Uppercase");
     }
     else if(x>='a' && x<='z'){
-        printf("Lowercase")
+        printf("Lowercase");
     }
     else{
-        printf("0")
+        printf("0");
     }
     return 0;
 }
