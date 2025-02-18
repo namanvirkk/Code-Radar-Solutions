@@ -3,19 +3,19 @@ int main() {
     int n;
     scanf("%d", &n);
     if(100>=n>=90){
-        print("A");
+        printf("A");
     }
     else if(80>=n<90){
-        print("B");
+        printf("B");
     }
     else if(70>=n<80){
-        print("C");
+        printf("C");
     }
     else if(60>=n<70){
-        print("D");
+        printf("D");
     }
     else{
-        print("F");
+        printf("F");
     }
     return 0;
 }
