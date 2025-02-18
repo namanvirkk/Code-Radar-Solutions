@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+    int profit,loss;
+    scan("%d", &profit, &loss);
+    if(profit>loss){
+        printf("Profit");
+    }
+    else{
+        printf("Loss");
+    }
+    return 0;
+}
