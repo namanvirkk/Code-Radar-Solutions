@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int a ,b;
+    int a;
     scanf("%d",&a);
     int MSB=1<<31;
-    if(MSB&1){
+    if(a&MSB&1){
         printf("Set");
     }
     else{
