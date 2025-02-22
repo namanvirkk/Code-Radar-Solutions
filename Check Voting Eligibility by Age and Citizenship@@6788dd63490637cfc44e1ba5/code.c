@@ -5,8 +5,11 @@ int main(){
     if(a>=18){
         printf("Eligible");
     }
-    else{
+    else if (Citizen1>=18){
         printf("Not Eligible");
+    }
+    else{
+        printf("0");
     }
     return 0;
 }
