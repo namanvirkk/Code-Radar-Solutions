@@ -1,15 +1,12 @@
 #include <stdio.h>
 int main(){
-    int age,Citizen1;
-    scanf("%d %d" , &a, &Citizen1);
-    if(a>=18){
+    int Citizen1;
+    scanf("%d" , &Citizen1);
+    if(Citizen1>=18){
         printf("Eligible");
     }
-    else if (Citizen1 >= 18){
-        printf("Not Eligible");
-    }
     else{
-        printf("0");
+        printf("Not Eligible");
     }
     return 0;
 }
